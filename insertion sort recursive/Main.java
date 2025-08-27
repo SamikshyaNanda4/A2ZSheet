@@ -12,8 +12,10 @@ class Solution {
         int j=i;
         while(j>0 && arr[j-1]>arr[j]){
             swap(arr,j,j-1);
+            j--;
         }
         recursiveIS(arr,i+1,n);
+        
     }
     
     static void swap(int arr[],int a,int b){
