@@ -1,4 +1,4 @@
-mport java.util.Arrays;
+import java.util.Arrays;
 
 class Solution {
     public int[] unionArray(int[] nums1, int[] nums2) {
