@@ -22,4 +22,4 @@ class Solution {
             right--;
         }
     }
-}
+}2
